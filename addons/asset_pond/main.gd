@@ -1,8 +1,8 @@
 @tool
 extends EditorPlugin
 
-const dam_editor_scene = preload("res://addons/duck_asset_manager/editor/dam_editor.tscn")
-const dam_dock_scene = preload("res://addons/duck_asset_manager/editor/dam_dock.tscn")
+const dam_editor_scene = preload("res://addons/asset_pond/editor/dam_editor.tscn")
+const dam_dock_scene = preload("res://addons/asset_pond/editor/dam_dock.tscn")
 
 var _dam_editor : Control
 var _dam_dock : Control

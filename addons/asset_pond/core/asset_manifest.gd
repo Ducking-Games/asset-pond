@@ -2,8 +2,8 @@
 extends Resource
 class_name AssetManifest
 
-const config_file: String = "res://duck_asset_manager.cfg"
-const backup_config_file: String = "res://duck_asset_manager.cfg.bak"
+const config_file: String = "res://asset_pond.cfg"
+const backup_config_file: String = "res://asset_pond.cfg.bak"
 
 var assets: Array[AssetConfig]
 

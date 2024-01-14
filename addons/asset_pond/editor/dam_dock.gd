@@ -1,8 +1,8 @@
 @tool
 extends ConfigLoadable
 
-@onready var remove_icon: Texture2D = preload("res://addons/duck_asset_manager/remove.png")
-@onready var folder_icon: Texture2D = preload("res://addons/duck_asset_manager/folder.png")
+@onready var remove_icon: Texture2D = preload("res://addons/asset_pond/remove.png")
+@onready var folder_icon: Texture2D = preload("res://addons/asset_pond/folder.png")
 @onready var tree : Tree = $VBoxContainer/Tree
 @onready var add = $VBoxContainer/HBoxContainer/Add
 

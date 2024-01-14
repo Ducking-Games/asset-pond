@@ -1,6 +1,6 @@
 [gd_scene load_steps=2 format=3 uid="uid://b0asvakaw0r75"]
 
-[ext_resource type="Script" path="res://addons/duck_asset_manager/editor/dam_dock.gd" id="1_li5ar"]
+[ext_resource type="Script" path="res://addons/asset_pond/editor/dam_dock.gd" id="1_li5ar"]
 
 [node name="DamDock" type="Control"]
 layout_mode = 3

@@ -10,7 +10,7 @@ metadata={
 
 [deps]
 
-source_file="res://addons/duck_asset_manager/folder.png"
+source_file="res://addons/asset_pond/folder.png"
 dest_files=["res://.godot/imported/folder.png-f54a49978b4631f2d725dec03cee42e2.ctex"]
 
 [params]

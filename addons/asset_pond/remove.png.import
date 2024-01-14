@@ -10,7 +10,7 @@ metadata={
 
 [deps]
 
-source_file="res://addons/duck_asset_manager/remove.png"
+source_file="res://addons/asset_pond/remove.png"
 dest_files=["res://.godot/imported/remove.png-8e430b83c07a8fa8029748f9c430db76.ctex"]
 
 [params]
