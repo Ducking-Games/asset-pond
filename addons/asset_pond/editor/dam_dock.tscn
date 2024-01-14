@@ -1,0 +1,50 @@
+[gd_scene load_steps=2 format=3 uid="uid://b0asvakaw0r75"]
+
+[ext_resource type="Script" path="res://addons/duck_asset_manager/editor/dam_dock.gd" id="1_li5ar"]
+
+[node name="DamDock" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_li5ar")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="VBoxContainer"]
+layout_mode = 2
+
+[node name="Add" type="Button" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "Add
+"
+
+[node name="Save" type="Button" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "Save"
+
+[node name="Clear" type="Button" parent="VBoxContainer/HBoxContainer"]
+layout_mode = 2
+text = "Clear (Debug)"
+
+[node name="Tree" type="Tree" parent="VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+columns = 2
+column_titles_visible = true
+
+[node name="Label" type="Label" parent="VBoxContainer"]
+layout_mode = 2
+text = "Asset Library"
+
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/Add" to="." method="new_asset"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/Save" to="." method="_save_config"]
+[connection signal="pressed" from="VBoxContainer/HBoxContainer/Clear" to="." method="clear"]

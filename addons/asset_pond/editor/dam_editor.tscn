@@ -1,0 +1,26 @@
+[gd_scene load_steps=3 format=3 uid="uid://by2vpu5qm1s36"]
+
+[ext_resource type="Script" path="res://addons/duck_asset_manager/editor/dam_editor.gd" id="1_i56jf"]
+[ext_resource type="Texture2D" uid="uid://b4qr8le2rff7p" path="res://addons/godotons/integrate.png" id="1_xheum"]
+
+[node name="DAM_editor" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_vertical = 3
+script = ExtResource("1_i56jf")
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="CenterContainer"]
+layout_mode = 2
+texture = ExtResource("1_xheum")
