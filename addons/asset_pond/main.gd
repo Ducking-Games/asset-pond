@@ -23,6 +23,8 @@ func _enter_tree():
 func _exit_tree():
 	if _dam_editor:
 		_dam_editor.queue_free()
+	if _dam_dock:
+		_dam_dock.queue_free()
 	#remove_autoload_singleton(singleton_name)
 
 func _get_plugin_name():
